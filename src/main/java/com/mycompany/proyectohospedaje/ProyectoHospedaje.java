@@ -9,6 +9,7 @@ package com.mycompany.proyectohospedaje;
 public class ProyectoHospedaje {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Habitacion habitacion1 = new Habitacion();
+        System.out.println(habitacion1.toString());
     }
 }
